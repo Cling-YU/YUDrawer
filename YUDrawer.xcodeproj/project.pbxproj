@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B876A8471CD302F7003B7A50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B876A8461CD302F7003B7A50 /* main.m */; };
+		B876A84A1CD302F7003B7A50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B876A8491CD302F7003B7A50 /* AppDelegate.m */; };
+		B876A84D1CD302F7003B7A50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B876A84C1CD302F7003B7A50 /* ViewController.m */; };
+		B876A8521CD302F7003B7A50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B876A8511CD302F7003B7A50 /* Assets.xcassets */; };
+		B876A8551CD302F7003B7A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B876A8531CD302F7003B7A50 /* LaunchScreen.storyboard */; };
+		B876A8601CD302F7003B7A50 /* YUDrawerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B876A85F1CD302F7003B7A50 /* YUDrawerTests.m */; };
+		B876A86B1CD302F7003B7A50 /* YUDrawerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B876A86A1CD302F7003B7A50 /* YUDrawerUITests.m */; };
+		B876A87F1CD303AD003B7A50 /* HMLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = B876A87A1CD303AD003B7A50 /* HMLeftView.m */; };
+		B876A8801CD303AD003B7A50 /* HMMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = B876A87C1CD303AD003B7A50 /* HMMainView.m */; };
+		B876A8811CD303AD003B7A50 /* HMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B876A87E1CD303AD003B7A50 /* HMViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B876A85C1CD302F7003B7A50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B876A83A1CD302F6003B7A50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B876A8411CD302F6003B7A50;
+			remoteInfo = YUDrawer;
+		};
+		B876A8671CD302F7003B7A50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B876A83A1CD302F6003B7A50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B876A8411CD302F6003B7A50;
+			remoteInfo = YUDrawer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B876A8421CD302F6003B7A50 /* YUDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B876A8461CD302F7003B7A50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B876A8481CD302F7003B7A50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B876A8491CD302F7003B7A50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B876A84B1CD302F7003B7A50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B876A84C1CD302F7003B7A50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B876A8511CD302F7003B7A50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B876A8541CD302F7003B7A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B876A8561CD302F7003B7A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B876A85B1CD302F7003B7A50 /* YUDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B876A85F1CD302F7003B7A50 /* YUDrawerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUDrawerTests.m; sourceTree = "<group>"; };
+		B876A8611CD302F7003B7A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B876A8661CD302F7003B7A50 /* YUDrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUDrawerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B876A86A1CD302F7003B7A50 /* YUDrawerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUDrawerUITests.m; sourceTree = "<group>"; };
+		B876A86C1CD302F7003B7A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B876A8791CD303AD003B7A50 /* HMLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLeftView.h; sourceTree = "<group>"; };
+		B876A87A1CD303AD003B7A50 /* HMLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMLeftView.m; sourceTree = "<group>"; };
+		B876A87B1CD303AD003B7A50 /* HMMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMMainView.h; sourceTree = "<group>"; };
+		B876A87C1CD303AD003B7A50 /* HMMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMMainView.m; sourceTree = "<group>"; };
+		B876A87D1CD303AD003B7A50 /* HMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMViewController.h; sourceTree = "<group>"; };
+		B876A87E1CD303AD003B7A50 /* HMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B876A83F1CD302F6003B7A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B876A8581CD302F7003B7A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B876A8631CD302F7003B7A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B876A8391CD302F6003B7A50 = {
+			isa = PBXGroup;
+			children = (
+				B876A8781CD303AD003B7A50 /* Drawer */,
+				B876A8441CD302F7003B7A50 /* YUDrawer */,
+				B876A85E1CD302F7003B7A50 /* YUDrawerTests */,
+				B876A8691CD302F7003B7A50 /* YUDrawerUITests */,
+				B876A8431CD302F6003B7A50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B876A8431CD302F6003B7A50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B876A8421CD302F6003B7A50 /* YUDrawer.app */,
+				B876A85B1CD302F7003B7A50 /* YUDrawerTests.xctest */,
+				B876A8661CD302F7003B7A50 /* YUDrawerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B876A8441CD302F7003B7A50 /* YUDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				B876A8481CD302F7003B7A50 /* AppDelegate.h */,
+				B876A8491CD302F7003B7A50 /* AppDelegate.m */,
+				B876A84B1CD302F7003B7A50 /* ViewController.h */,
+				B876A84C1CD302F7003B7A50 /* ViewController.m */,
+				B876A8511CD302F7003B7A50 /* Assets.xcassets */,
+				B876A8531CD302F7003B7A50 /* LaunchScreen.storyboard */,
+				B876A8561CD302F7003B7A50 /* Info.plist */,
+				B876A8451CD302F7003B7A50 /* Supporting Files */,
+			);
+			path = YUDrawer;
+			sourceTree = "<group>";
+		};
+		B876A8451CD302F7003B7A50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B876A8461CD302F7003B7A50 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B876A85E1CD302F7003B7A50 /* YUDrawerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B876A85F1CD302F7003B7A50 /* YUDrawerTests.m */,
+				B876A8611CD302F7003B7A50 /* Info.plist */,
+			);
+			path = YUDrawerTests;
+			sourceTree = "<group>";
+		};
+		B876A8691CD302F7003B7A50 /* YUDrawerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B876A86A1CD302F7003B7A50 /* YUDrawerUITests.m */,
+				B876A86C1CD302F7003B7A50 /* Info.plist */,
+			);
+			path = YUDrawerUITests;
+			sourceTree = "<group>";
+		};
+		B876A8781CD303AD003B7A50 /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				B876A8791CD303AD003B7A50 /* HMLeftView.h */,
+				B876A87A1CD303AD003B7A50 /* HMLeftView.m */,
+				B876A87B1CD303AD003B7A50 /* HMMainView.h */,
+				B876A87C1CD303AD003B7A50 /* HMMainView.m */,
+				B876A87D1CD303AD003B7A50 /* HMViewController.h */,
+				B876A87E1CD303AD003B7A50 /* HMViewController.m */,
+			);
+			name = Drawer;
+			path = YUDrawer/Drawer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B876A8411CD302F6003B7A50 /* YUDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B876A86F1CD302F7003B7A50 /* Build configuration list for PBXNativeTarget "YUDrawer" */;
+			buildPhases = (
+				B876A83E1CD302F6003B7A50 /* Sources */,
+				B876A83F1CD302F6003B7A50 /* Frameworks */,
+				B876A8401CD302F6003B7A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YUDrawer;
+			productName = YUDrawer;
+			productReference = B876A8421CD302F6003B7A50 /* YUDrawer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B876A85A1CD302F7003B7A50 /* YUDrawerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B876A8721CD302F7003B7A50 /* Build configuration list for PBXNativeTarget "YUDrawerTests" */;
+			buildPhases = (
+				B876A8571CD302F7003B7A50 /* Sources */,
+				B876A8581CD302F7003B7A50 /* Frameworks */,
+				B876A8591CD302F7003B7A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B876A85D1CD302F7003B7A50 /* PBXTargetDependency */,
+			);
+			name = YUDrawerTests;
+			productName = YUDrawerTests;
+			productReference = B876A85B1CD302F7003B7A50 /* YUDrawerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B876A8651CD302F7003B7A50 /* YUDrawerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B876A8751CD302F7003B7A50 /* Build configuration list for PBXNativeTarget "YUDrawerUITests" */;
+			buildPhases = (
+				B876A8621CD302F7003B7A50 /* Sources */,
+				B876A8631CD302F7003B7A50 /* Frameworks */,
+				B876A8641CD302F7003B7A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B876A8681CD302F7003B7A50 /* PBXTargetDependency */,
+			);
+			name = YUDrawerUITests;
+			productName = YUDrawerUITests;
+			productReference = B876A8661CD302F7003B7A50 /* YUDrawerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B876A83A1CD302F6003B7A50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = YU;
+				TargetAttributes = {
+					B876A8411CD302F6003B7A50 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B876A85A1CD302F7003B7A50 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B876A8411CD302F6003B7A50;
+					};
+					B876A8651CD302F7003B7A50 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B876A8411CD302F6003B7A50;
+					};
+				};
+			};
+			buildConfigurationList = B876A83D1CD302F6003B7A50 /* Build configuration list for PBXProject "YUDrawer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B876A8391CD302F6003B7A50;
+			productRefGroup = B876A8431CD302F6003B7A50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B876A8411CD302F6003B7A50 /* YUDrawer */,
+				B876A85A1CD302F7003B7A50 /* YUDrawerTests */,
+				B876A8651CD302F7003B7A50 /* YUDrawerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B876A8401CD302F6003B7A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B876A8551CD302F7003B7A50 /* LaunchScreen.storyboard in Resources */,
+				B876A8521CD302F7003B7A50 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B876A8591CD302F7003B7A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B876A8641CD302F7003B7A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B876A83E1CD302F6003B7A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B876A84D1CD302F7003B7A50 /* ViewController.m in Sources */,
+				B876A84A1CD302F7003B7A50 /* AppDelegate.m in Sources */,
+				B876A8801CD303AD003B7A50 /* HMMainView.m in Sources */,
+				B876A8811CD303AD003B7A50 /* HMViewController.m in Sources */,
+				B876A87F1CD303AD003B7A50 /* HMLeftView.m in Sources */,
+				B876A8471CD302F7003B7A50 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B876A8571CD302F7003B7A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B876A8601CD302F7003B7A50 /* YUDrawerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B876A8621CD302F7003B7A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B876A86B1CD302F7003B7A50 /* YUDrawerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B876A85D1CD302F7003B7A50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B876A8411CD302F6003B7A50 /* YUDrawer */;
+			targetProxy = B876A85C1CD302F7003B7A50 /* PBXContainerItemProxy */;
+		};
+		B876A8681CD302F7003B7A50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B876A8411CD302F6003B7A50 /* YUDrawer */;
+			targetProxy = B876A8671CD302F7003B7A50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B876A8531CD302F7003B7A50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B876A8541CD302F7003B7A50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B876A86D1CD302F7003B7A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B876A86E1CD302F7003B7A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B876A8701CD302F7003B7A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YUDrawer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YHQ.YUDrawer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B876A8711CD302F7003B7A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YUDrawer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YHQ.YUDrawer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B876A8731CD302F7003B7A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YUDrawerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YHQ.YUDrawerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YUDrawer.app/YUDrawer";
+			};
+			name = Debug;
+		};
+		B876A8741CD302F7003B7A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YUDrawerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YHQ.YUDrawerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YUDrawer.app/YUDrawer";
+			};
+			name = Release;
+		};
+		B876A8761CD302F7003B7A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YUDrawerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YHQ.YUDrawerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YUDrawer;
+			};
+			name = Debug;
+		};
+		B876A8771CD302F7003B7A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YUDrawerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YHQ.YUDrawerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YUDrawer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B876A83D1CD302F6003B7A50 /* Build configuration list for PBXProject "YUDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B876A86D1CD302F7003B7A50 /* Debug */,
+				B876A86E1CD302F7003B7A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B876A86F1CD302F7003B7A50 /* Build configuration list for PBXNativeTarget "YUDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B876A8701CD302F7003B7A50 /* Debug */,
+				B876A8711CD302F7003B7A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B876A8721CD302F7003B7A50 /* Build configuration list for PBXNativeTarget "YUDrawerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B876A8731CD302F7003B7A50 /* Debug */,
+				B876A8741CD302F7003B7A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B876A8751CD302F7003B7A50 /* Build configuration list for PBXNativeTarget "YUDrawerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B876A8761CD302F7003B7A50 /* Debug */,
+				B876A8771CD302F7003B7A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B876A83A1CD302F6003B7A50 /* Project object */;
+}
